@@ -1,0 +1,7 @@
+2025-08-17T17:18:14.841+05:30 DEBUG 21120 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Cart saved after add/update: com.online.foodOrderingSystem.entity.Cart@6ed7c178
+2025-08-17T17:18:14.856+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Updating cart item quantity: userId=1, cartItemId=999, newQuantity=5
+2025-08-17T17:18:14.857+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1
+2025-08-17T17:18:14.862+05:30  WARN 21120 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : CartItem not found for cartItemId=999 and userId=1
+2025-08-17T17:18:14.871+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Retrieving cart for userId=1
+2025-08-17T17:18:14.872+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1
+2025-08-17T17:18:14.885+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Updating cart item quantity: userId=1, cartItemId=10, newQuantity=5

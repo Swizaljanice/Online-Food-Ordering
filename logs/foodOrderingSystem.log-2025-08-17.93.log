@@ -1,0 +1,7 @@
+2025-08-17T17:19:46.770+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Get order details request: userId=1, orderId=10
+2025-08-17T17:19:46.776+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Order not found: orderId=10 for userId=1
+2025-08-17T17:19:46.784+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Get order details request: userId=1, orderId=10
+2025-08-17T17:19:46.786+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Order found: orderId=10 for userId=1
+2025-08-17T17:19:46.793+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Update order status request: orderId=5, newStatus=Delivered
+2025-08-17T17:19:46.794+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Order status updated: orderId=5, status=null
+2025-08-17T17:19:46.810+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Get order status request: userId=1, orderId=10

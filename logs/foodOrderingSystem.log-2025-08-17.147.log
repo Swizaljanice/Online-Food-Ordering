@@ -1,0 +1,7 @@
+2025-08-17T17:32:31.707+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching menu item by id=7
+2025-08-17T17:32:31.712+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu item not found with id=7
+2025-08-17T17:32:31.717+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching all menu items
+2025-08-17T17:32:31.718+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Found 1 menu items
+2025-08-17T17:32:31.725+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Adding new menu item to categoryId=1 -> MenuItem{id=null, name='Burger', description='null', price=null, imageUrl='null', available=true, category=null}
+2025-08-17T17:32:31.727+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu item created with id=null under categoryId=1
+2025-08-17T17:32:31.732+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Deleting menu item with id=3

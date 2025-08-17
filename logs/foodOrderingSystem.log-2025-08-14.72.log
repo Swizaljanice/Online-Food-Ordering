@@ -1,0 +1,6 @@
+2025-08-14T18:48:34.480+05:30  INFO 1000 --- [foodOrderingSystem] [main] c.o.f.FoodOrderingSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T18:48:36.596+05:30  INFO 1000 --- [foodOrderingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-14T18:48:36.789+05:30  INFO 1000 --- [foodOrderingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 167 ms. Found 11 JPA repository interfaces.
+2025-08-14T18:48:38.178+05:30  INFO 1000 --- [foodOrderingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-14T18:48:38.354+05:30  INFO 1000 --- [foodOrderingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-14T18:48:38.447+05:30  INFO 1000 --- [foodOrderingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled

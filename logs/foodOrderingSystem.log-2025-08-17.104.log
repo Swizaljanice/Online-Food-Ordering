@@ -1,0 +1,6 @@
+2025-08-17T17:19:48.033+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuCategoryController  : Menu category created: id=1 for restaurantId=2
+2025-08-17T17:19:48.042+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuCategoryController  : Request to delete menu category with id=9
+2025-08-17T17:19:48.044+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuCategoryController  : Category with ID 9 deleted successfully.
+2025-08-17T17:19:48.052+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuCategoryController  : Request to fetch all categories for restaurantId=1
+2025-08-17T17:19:48.055+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuCategoryController  : Found 1 categories for restaurantId=1
+2025-08-17T17:19:48.060+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuCategoryController  : Request to update menu category categoryId=5 -> MenuCategory{id=5, name='Updated', description='null', restaurant=null, items=[]}

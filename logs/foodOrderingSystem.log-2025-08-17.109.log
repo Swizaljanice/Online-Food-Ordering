@@ -1,0 +1,6 @@
+2025-08-17T17:19:48.356+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Updating cart item quantity: userId=1, cartItemId=10, newQuantity=5
+2025-08-17T17:19:48.361+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1
+2025-08-17T17:19:48.362+05:30 DEBUG 14184 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Cart saved after quantity update: com.online.foodOrderingSystem.entity.Cart@74b521c
+2025-08-17T17:19:48.369+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Adding/Updating cart item: userId=1, menuItemId=101, quantity=3
+2025-08-17T17:19:48.370+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1
+2025-08-17T17:19:48.371+05:30 DEBUG 14184 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Item already exists in cart. Incrementing quantity. CurrentQty=1, Adding=3

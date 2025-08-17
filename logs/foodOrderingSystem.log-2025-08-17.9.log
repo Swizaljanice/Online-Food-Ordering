@@ -1,0 +1,7 @@
+2025-08-17T16:03:18.825+05:30 DEBUG 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Cart saved after add/update: com.online.foodOrderingSystem.entity.Cart@31201bf6
+2025-08-17T16:03:18.836+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Checkout started for userId=1
+2025-08-17T16:03:18.838+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Cart cleared for userId=1 after checkout
+2025-08-17T16:03:18.846+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : Attempting to load user by email: test@example.com
+2025-08-17T16:03:18.849+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : User found: id=null, role=CUSTOMER, email=test@example.com
+2025-08-17T16:03:18.856+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : Attempting to load user by email: missing@example.com
+2025-08-17T16:03:18.857+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : User not found with email=missing@example.com

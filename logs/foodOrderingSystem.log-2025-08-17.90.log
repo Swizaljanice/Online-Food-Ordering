@@ -1,0 +1,6 @@
+2025-08-17T17:19:46.232+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.FeedbackController      : Received request to leave feedback: com.online.foodOrderingSystem.entity.Feedback@27d6467
+2025-08-17T17:19:46.240+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.FeedbackController      : Feedback saved with ID: 1
+2025-08-17T17:19:46.247+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.FeedbackController      : Fetching feedback for restaurantId=10
+2025-08-17T17:19:46.248+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.FeedbackController      : Found 1 feedback entries for restaurantId=10
+2025-08-17T17:19:46.258+05:30 DEBUG 14184 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Generating token for email: test@example.com, role: CUSTOMER
+2025-08-17T17:19:46.475+05:30 DEBUG 14184 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token generated successfully for test@example.com: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIiwicm9sZSI6IkNVU1RPTUVSIiwiaWF0IjoxNzU1NDMxMzg2LCJleHAiOjE3NTU0MzQ5ODZ9.hI1DvPrifQQmv93DMB3652Z9mv-rcezcUbFilNBfr78

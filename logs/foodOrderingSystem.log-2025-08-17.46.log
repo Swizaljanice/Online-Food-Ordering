@@ -1,0 +1,7 @@
+2025-08-17T17:13:11.340+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=10
+2025-08-17T17:13:11.344+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=10
+2025-08-17T17:13:11.345+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order not found for userId=10 orderId=1
+2025-08-17T17:13:11.352+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=100
+2025-08-17T17:13:11.352+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=100
+2025-08-17T17:13:11.357+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Checkout initiated: userId=1, paymentMethod=COD
+2025-08-17T17:13:11.359+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : MenuItem not found: id=5

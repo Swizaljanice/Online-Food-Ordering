@@ -1,0 +1,6 @@
+2025-08-17T17:13:10.803+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Updating menu category id=5 with new values: MenuCategory{id=0, name='New Name', description='New Desc', restaurant=null, items=[]}
+2025-08-17T17:13:10.810+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Menu category id=5 updated successfully
+2025-08-17T17:13:10.820+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Updating menu category id=5 with new values: MenuCategory{id=0, name='null', description='null', restaurant=null, items=[]}
+2025-08-17T17:13:10.823+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Menu category not found with id=5
+2025-08-17T17:13:10.829+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Fetching categories for restaurantId=1
+2025-08-17T17:13:10.830+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Restaurant not found for id=1

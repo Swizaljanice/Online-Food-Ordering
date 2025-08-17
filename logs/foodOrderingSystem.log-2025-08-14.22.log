@@ -1,0 +1,6 @@
+2025-08-14T17:04:11.113+05:30  INFO 17824 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Login attempt for email: test@example.com
+2025-08-14T17:04:11.117+05:30 DEBUG 17824 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : User found: test@example.com with role CUSTOMER
+2025-08-14T17:04:11.238+05:30  INFO 17824 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Password matched for email: test@example.com
+2025-08-14T17:04:11.239+05:30  INFO 17824 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : JWT generated for test@example.com: jwt-token
+2025-08-14T17:04:11.270+05:30  INFO 17824 --- [foodOrderingSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T17:04:11.280+05:30  INFO 17824 --- [foodOrderingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...

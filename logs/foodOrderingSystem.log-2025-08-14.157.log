@@ -1,0 +1,7 @@
+2025-08-14T20:17:35.505+05:30 DEBUG 19412 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token validation succeeded
+2025-08-14T20:17:35.517+05:30  WARN 19412 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token validation failed: Malformed JWT JSON: i�
+2025-08-14T20:17:35.965+05:30  INFO 19412 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Login attempt for email: nope@example.com
+2025-08-14T20:17:35.966+05:30  WARN 19412 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Login failed - email not found: nope@example.com
+2025-08-14T20:17:36.105+05:30  INFO 19412 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Login attempt for email: test@example.com
+2025-08-14T20:17:36.106+05:30 DEBUG 19412 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : User found: test@example.com with role CUSTOMER
+2025-08-14T20:17:36.237+05:30  WARN 19412 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Login failed - invalid password for email: test@example.com

@@ -1,0 +1,7 @@
+2025-08-17T17:19:48.452+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Fetching restaurant by id=1
+2025-08-17T17:19:48.465+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Updating restaurant with id=1
+2025-08-17T17:19:48.466+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant with id=1 updated successfully
+2025-08-17T17:19:48.473+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Updating restaurant with id=1
+2025-08-17T17:19:48.479+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant not found with id=1
+2025-08-17T17:19:48.490+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Deleting restaurant with id=1
+2025-08-17T17:19:48.491+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant with id=1 deleted successfully

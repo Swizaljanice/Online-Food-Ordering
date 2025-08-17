@@ -1,0 +1,7 @@
+2025-08-17T17:32:32.370+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Restaurant not found with id=1
+2025-08-17T17:32:32.381+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching menu for restaurantId=1
+2025-08-17T17:32:32.383+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu for restaurantId=1 retrieved successfully with 1 categories
+2025-08-17T17:32:32.388+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching restaurant by id=1
+2025-08-17T17:32:32.392+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Updating restaurant with id=1
+2025-08-17T17:32:32.393+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Restaurant with id=1 updated successfully
+2025-08-17T17:32:32.401+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Updating restaurant with id=1

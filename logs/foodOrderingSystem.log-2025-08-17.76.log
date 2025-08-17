@@ -1,0 +1,7 @@
+2025-08-17T17:18:16.170+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Handling Razorpay webhook payload (23 chars)
+2025-08-17T17:18:16.175+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Webhook event type received: other.event
+2025-08-17T17:18:16.175+05:30  WARN 21120 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Unhandled webhook event type: other.event
+2025-08-17T17:18:16.180+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Handling Razorpay webhook payload (89 chars)
+2025-08-17T17:18:16.182+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Webhook event type received: payment.failed
+2025-08-17T17:18:16.182+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Processing 'payment.failed' for Razorpay orderId=rzp_order_fail
+2025-08-17T17:18:16.183+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Payment transaction marked as Failed: transactionId=rzp_order_fail

@@ -1,0 +1,6 @@
+2025-08-17T17:19:45.432+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Menu category created with id=0 under restaurantId=1
+2025-08-17T17:19:45.443+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Deleting menu category with id=7
+2025-08-17T17:19:45.445+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Menu category deleted successfully with id=7
+2025-08-17T17:19:45.470+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Updating menu category id=5 with new values: MenuCategory{id=0, name='New Name', description='New Desc', restaurant=null, items=[]}
+2025-08-17T17:19:45.473+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Menu category id=5 updated successfully
+2025-08-17T17:19:45.478+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Updating menu category id=5 with new values: MenuCategory{id=0, name='null', description='null', restaurant=null, items=[]}

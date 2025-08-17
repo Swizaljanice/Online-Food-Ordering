@@ -1,0 +1,5 @@
+2025-08-14T16:57:58.788+05:30  INFO 23740 --- [foodOrderingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-14T16:57:59.067+05:30  INFO 23740 --- [foodOrderingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-14T16:58:00.946+05:30  WARN 23740 --- [foodOrderingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-14T16:58:01.706+05:30  INFO 23740 --- [foodOrderingSystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-14T16:58:02.939+05:30  INFO 23740 --- [foodOrderingSystem] [main] c.o.f.FoodOrderingSystemApplicationTests : Started FoodOrderingSystemApplicationTests in 11.891 seconds (process running for 17.018)

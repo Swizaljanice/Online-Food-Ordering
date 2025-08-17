@@ -1,0 +1,14 @@
+2025-08-17T17:19:48.610+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuItemController      : Menu item created with id=1 under categoryId=2
+2025-08-17T17:19:48.619+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuItemController      : Fetching all menu items
+2025-08-17T17:19:48.620+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuItemController      : Found 1 menu items
+2025-08-17T17:19:48.628+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuItemController      : Request to update menu item id=5 -> MenuItem{id=5, name='Updated', description='null', price=null, imageUrl='null', available=true, category=null}
+2025-08-17T17:19:48.635+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuItemController      : Menu item id=5 updated successfully
+2025-08-17T17:32:18.386+05:30  WARN 19100 --- [foodOrderingSystem] [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Swizal/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Swizal/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+

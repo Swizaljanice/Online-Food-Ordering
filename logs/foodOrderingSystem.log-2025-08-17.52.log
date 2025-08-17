@@ -1,0 +1,7 @@
+2025-08-17T17:13:11.632+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Adding new restaurant: Restaurant{id=0, name='Test Rest', description='null', address='null', phone='null', createdAt=null, categories=[]}
+2025-08-17T17:13:11.639+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant saved successfully with id=0
+2025-08-17T17:13:11.644+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Fetching restaurant by id=1
+2025-08-17T17:13:11.645+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant not found with id=1
+2025-08-17T17:13:11.649+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Fetching all restaurants
+2025-08-17T17:13:11.650+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Found 1 restaurants
+2025-08-17T17:13:11.657+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Deleting restaurant with id=1

@@ -1,0 +1,6 @@
+2025-08-17T17:32:31.734+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu item deleted successfully with id=3
+2025-08-17T17:32:31.748+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Updating menu item id=5 with new values: MenuItem{id=5, name='New', description='Desc', price=10, imageUrl='img.jpg', available=true, category=null}
+2025-08-17T17:32:31.750+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu item id=5 updated successfully
+2025-08-17T17:32:31.755+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Deleting menu item with id=3
+2025-08-17T17:32:31.757+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu item not found with id=3
+2025-08-17T17:32:32.070+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching order status: orderId=1, userId=10

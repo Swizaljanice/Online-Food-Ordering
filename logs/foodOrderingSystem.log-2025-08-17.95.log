@@ -1,0 +1,6 @@
+2025-08-17T17:19:46.853+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : Attempting to load user by email: test@example.com
+2025-08-17T17:19:46.861+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : User found: id=null, role=CUSTOMER, email=test@example.com
+2025-08-17T17:19:46.867+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : Attempting to load user by email: missing@example.com
+2025-08-17T17:19:46.868+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : User not found with email=missing@example.com
+2025-08-17T17:19:46.981+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Adding new menu item to categoryId=1 -> MenuItem{id=null, name='null', description='null', price=null, imageUrl='null', available=true, category=null}
+2025-08-17T17:19:46.992+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Category not found for id=1

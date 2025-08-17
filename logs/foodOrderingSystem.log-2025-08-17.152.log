@@ -1,0 +1,7 @@
+2025-08-17T17:32:32.145+05:30 DEBUG 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Mapping Order entity to OrderDto: orderId=10
+2025-08-17T17:32:32.159+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching tracking history: orderId=1, userId=1
+2025-08-17T17:32:32.160+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching order: orderId=1, userId=1
+2025-08-17T17:32:32.161+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Order 1 found for userId=1
+2025-08-17T17:32:32.162+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Found 1 tracking records for orderId=1
+2025-08-17T17:32:32.288+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Handling Razorpay webhook payload (90 chars)
+2025-08-17T17:32:32.291+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Webhook event type received: payment.captured

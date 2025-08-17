@@ -1,0 +1,7 @@
+2025-08-17T16:03:19.429+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item not found with id=3
+2025-08-17T16:03:19.740+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order status: orderId=1, userId=10
+2025-08-17T16:03:19.741+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=10
+2025-08-17T16:03:19.741+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=10
+2025-08-17T16:03:19.743+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order not found for userId=10 orderId=1
+2025-08-17T16:03:19.749+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=100
+2025-08-17T16:03:19.749+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=100

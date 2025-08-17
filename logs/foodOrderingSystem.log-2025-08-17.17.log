@@ -1,0 +1,7 @@
+2025-08-17T16:03:19.756+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Checkout initiated: userId=1, paymentMethod=COD
+2025-08-17T16:03:19.762+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : MenuItem not found: id=5
+2025-08-17T16:03:19.768+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Updating order status: orderId=1, newStatus=Shipped
+2025-08-17T16:03:19.769+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order status updated: orderId=1, status=Shipped
+2025-08-17T16:03:19.770+05:30 DEBUG 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Mapping Order entity to OrderResponseDto: orderId=1
+2025-08-17T16:03:19.777+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=100
+2025-08-17T16:03:19.778+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Access denied for userId=100 to orderId=1

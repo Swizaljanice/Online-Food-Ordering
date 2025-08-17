@@ -1,0 +1,5 @@
+2025-08-17T17:32:25.942+05:30  INFO 19100 --- [foodOrderingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-17T17:32:27.598+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Initializing Razorpay client
+2025-08-17T17:32:28.466+05:30  WARN 19100 --- [foodOrderingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-17T17:32:29.201+05:30  INFO 19100 --- [foodOrderingSystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-17T17:32:30.347+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.FoodOrderingSystemApplicationTests : Started FoodOrderingSystemApplicationTests in 12.755 seconds (process running for 19.529)

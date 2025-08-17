@@ -1,0 +1,7 @@
+2025-08-17T17:32:31.073+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Checkout started for userId=1
+2025-08-17T17:32:31.081+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Cart cleared for userId=1 after checkout
+2025-08-17T17:32:31.105+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Attempting to load user by email: test@example.com
+2025-08-17T17:32:31.108+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : User found: id=null, role=CUSTOMER, email=test@example.com
+2025-08-17T17:32:31.114+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Attempting to load user by email: missing@example.com
+2025-08-17T17:32:31.115+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : User not found with email=missing@example.com
+2025-08-17T17:32:31.256+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Saving feedback for restaurantId=null, userId=null

@@ -1,0 +1,6 @@
+2025-08-17T17:19:48.159+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.RestaurantController    : Found 1 restaurants
+2025-08-17T17:19:48.168+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.RestaurantController    : Request to fetch menu for restaurantId=1
+2025-08-17T17:19:48.169+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.RestaurantController    : Menu for restaurantId=1 retrieved successfully with 0 categories
+2025-08-17T17:19:48.172+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.RestaurantController    : Request to update restaurant with id=1 data: Restaurant{id=1, name='Updated', description='null', address='null', phone='null', createdAt=null, categories=[]}
+2025-08-17T17:19:48.173+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.RestaurantController    : Restaurant with id=1 updated successfully
+2025-08-17T17:19:48.295+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Removing cart item: userId=1, cartItemId=10

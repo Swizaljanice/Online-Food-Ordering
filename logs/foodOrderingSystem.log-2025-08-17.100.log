@@ -1,0 +1,7 @@
+2025-08-17T17:19:47.846+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order status: orderId=1, userId=10
+2025-08-17T17:19:47.850+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=10
+2025-08-17T17:19:47.851+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=10
+2025-08-17T17:19:47.853+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order not found for userId=10 orderId=1
+2025-08-17T17:19:47.860+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=100
+2025-08-17T17:19:47.861+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=100
+2025-08-17T17:19:47.870+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Checkout initiated: userId=1, paymentMethod=COD

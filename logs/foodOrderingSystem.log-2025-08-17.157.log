@@ -1,0 +1,7 @@
+2025-08-17T17:32:32.401+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Restaurant not found with id=1
+2025-08-17T17:32:32.414+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Deleting restaurant with id=1
+2025-08-17T17:32:32.415+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Restaurant with id=1 deleted successfully
+2025-08-17T17:32:32.421+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching menu for restaurantId=1
+2025-08-17T17:32:32.422+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Restaurant not found with id=1
+2025-08-17T17:32:32.431+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching all users
+2025-08-17T17:32:32.432+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Found 1 registered users

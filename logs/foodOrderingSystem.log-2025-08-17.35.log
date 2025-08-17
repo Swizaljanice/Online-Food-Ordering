@@ -1,0 +1,6 @@
+2025-08-17T17:13:09.879+05:30 DEBUG 15340 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Generating token for email: test@example.com, role: CUSTOMER
+2025-08-17T17:13:09.893+05:30 DEBUG 15340 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token generated successfully for test@example.com: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIiwicm9sZSI6IkNVU1RPTUVSIiwiaWF0IjoxNzU1NDMwOTg5LCJleHAiOjE3NTU0MzQ1ODl9.nmn2ZVGS0MwPZYtk82r_xyxrJwh8Cv9s2-CkDnvDBW0
+2025-08-17T17:13:09.922+05:30 DEBUG 15340 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token validation succeeded
+2025-08-17T17:13:09.948+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token validation failed: Malformed JWT JSON: i?
+2025-08-17T17:13:10.224+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Removing cart item: userId=1, cartItemId=10
+2025-08-17T17:13:10.226+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1

@@ -1,0 +1,7 @@
+2025-08-17T16:03:19.805+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Initial tracking entry added for orderId=10 with status='Pending'
+2025-08-17T16:03:19.810+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Cart cleared after checkout for userId=1
+2025-08-17T16:03:19.810+05:30 DEBUG 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Mapping Order entity to OrderDto: orderId=10
+2025-08-17T16:03:19.816+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching tracking history: orderId=1, userId=1
+2025-08-17T16:03:19.816+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=1
+2025-08-17T16:03:19.817+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=1
+2025-08-17T16:03:19.818+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Found 1 tracking records for orderId=1

@@ -1,0 +1,6 @@
+2025-08-17T17:19:46.580+05:30 DEBUG 14184 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token validation succeeded
+2025-08-17T17:19:46.591+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token validation failed: Malformed JWT JSON: i�
+2025-08-17T17:19:46.740+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.CartController          : Fetching cart for userId=5
+2025-08-17T17:19:46.742+05:30 DEBUG 14184 --- [foodOrderingSystem] [main] c.o.f.controller.CartController          : Cart fetched for userId=5 -> com.online.foodOrderingSystem.dto.CartDto@4a7e469d
+2025-08-17T17:19:46.753+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.CartController          : Adding item to cart: userId=5, menuItemId=101, quantity=2
+2025-08-17T17:19:46.754+05:30 DEBUG 14184 --- [foodOrderingSystem] [main] c.o.f.controller.CartController          : Updated cart after adding item: com.online.foodOrderingSystem.dto.CartDto@5b634e24

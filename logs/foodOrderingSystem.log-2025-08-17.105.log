@@ -1,0 +1,6 @@
+2025-08-17T17:19:48.061+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuCategoryController  : Menu category with id=5 updated successfully
+2025-08-17T17:19:48.134+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.RestaurantController    : Request to delete restaurant with id=1
+2025-08-17T17:19:48.137+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.RestaurantController    : Restaurant deleted successfully (id=1)
+2025-08-17T17:19:48.144+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.RestaurantController    : Request to add a new restaurant: Restaurant{id=1, name='Test Rest', description='null', address='null', phone='null', createdAt=null, categories=[]}
+2025-08-17T17:19:48.154+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.RestaurantController    : Restaurant added successfully with id=1
+2025-08-17T17:19:48.159+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.RestaurantController    : Request to fetch all restaurants

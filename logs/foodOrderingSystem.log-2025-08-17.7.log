@@ -1,0 +1,7 @@
+2025-08-17T16:03:18.743+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1
+2025-08-17T16:03:18.749+05:30 DEBUG 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Item not found in cart. Adding new item.
+2025-08-17T16:03:18.750+05:30 DEBUG 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Cart saved after add/update: com.online.foodOrderingSystem.entity.Cart@4d6f8691
+2025-08-17T16:03:18.759+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Updating cart item quantity: userId=1, cartItemId=999, newQuantity=5
+2025-08-17T16:03:18.760+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1
+2025-08-17T16:03:18.762+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : CartItem not found for cartItemId=999 and userId=1
+2025-08-17T16:03:18.768+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Retrieving cart for userId=1

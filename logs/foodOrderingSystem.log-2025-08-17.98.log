@@ -1,0 +1,6 @@
+2025-08-17T17:19:47.051+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Updating menu item id=5 with new values: MenuItem{id=5, name='New', description='Desc', price=10, imageUrl='img.jpg', available=true, category=null}
+2025-08-17T17:19:47.056+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item id=5 updated successfully
+2025-08-17T17:19:47.062+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Deleting menu item with id=3
+2025-08-17T17:19:47.062+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item not found with id=3
+2025-08-17T17:19:47.129+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Login attempt for email: nope@example.com
+2025-08-17T17:19:47.130+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Login failed - email not found: nope@example.com

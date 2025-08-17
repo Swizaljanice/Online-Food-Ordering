@@ -1,0 +1,6 @@
+2025-08-14T19:20:16.128+05:30  INFO 25992 --- [foodOrderingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-14T19:20:16.219+05:30  INFO 25992 --- [foodOrderingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T19:20:17.166+05:30  INFO 25992 --- [foodOrderingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4942e6af
+2025-08-14T19:20:17.172+05:30  INFO 25992 --- [foodOrderingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T19:20:17.298+05:30  WARN 25992 --- [foodOrderingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-14T19:20:17.300+05:30  WARN 25992 --- [foodOrderingSystem] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead

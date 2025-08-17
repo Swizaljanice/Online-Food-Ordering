@@ -1,0 +1,7 @@
+2025-08-17T17:13:10.989+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Fetching menu item by id=7
+2025-08-17T17:13:10.995+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item not found with id=7
+2025-08-17T17:13:11.000+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Fetching all menu items
+2025-08-17T17:13:11.001+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Found 1 menu items
+2025-08-17T17:13:11.009+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Adding new menu item to categoryId=1 -> MenuItem{id=null, name='Burger', description='null', price=null, imageUrl='null', available=true, category=null}
+2025-08-17T17:13:11.010+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item created with id=null under categoryId=1
+2025-08-17T17:13:11.017+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Deleting menu item with id=3

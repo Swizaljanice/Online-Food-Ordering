@@ -1,0 +1,7 @@
+2025-08-17T17:19:48.497+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Fetching menu for restaurantId=1
+2025-08-17T17:19:48.503+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant not found with id=1
+2025-08-17T17:19:48.598+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuItemController      : Fetching menu item by id=3
+2025-08-17T17:19:48.598+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuItemController      : Found menu item: MenuItem{id=3, name='null', description='null', price=null, imageUrl='null', available=true, category=null}
+2025-08-17T17:19:48.602+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuItemController      : Request to delete menu item id=9
+2025-08-17T17:19:48.604+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuItemController      : MenuItem with ID 9 deleted successfully.
+2025-08-17T17:19:48.608+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.MenuItemController      : Request to add new menu item for categoryId=2 -> MenuItem{id=1, name='null', description='null', price=null, imageUrl='null', available=true, category=null}

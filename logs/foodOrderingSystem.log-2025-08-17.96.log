@@ -1,0 +1,6 @@
+2025-08-17T17:19:46.996+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Updating menu item id=5 with new values: MenuItem{id=5, name='null', description='null', price=null, imageUrl='null', available=true, category=null}
+2025-08-17T17:19:47.001+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item not found with id=5
+2025-08-17T17:19:47.007+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Fetching menu item by id=7
+2025-08-17T17:19:47.008+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item found: MenuItem{id=7, name='null', description='null', price=null, imageUrl='null', available=true, category=null}
+2025-08-17T17:19:47.014+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Fetching menu item by id=7
+2025-08-17T17:19:47.014+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item not found with id=7

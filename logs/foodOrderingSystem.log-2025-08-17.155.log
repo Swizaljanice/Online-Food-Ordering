@@ -1,0 +1,7 @@
+2025-08-17T17:32:32.343+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Adding new restaurant: Restaurant{id=0, name='Test Rest', description='null', address='null', phone='null', createdAt=null, categories=[]}
+2025-08-17T17:32:32.349+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Restaurant saved successfully with id=0
+2025-08-17T17:32:32.356+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching restaurant by id=1
+2025-08-17T17:32:32.358+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Restaurant not found with id=1
+2025-08-17T17:32:32.364+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching all restaurants
+2025-08-17T17:32:32.364+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Found 1 restaurants
+2025-08-17T17:32:32.369+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Deleting restaurant with id=1

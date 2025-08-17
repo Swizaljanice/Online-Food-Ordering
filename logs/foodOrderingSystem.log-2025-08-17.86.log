@@ -1,0 +1,7 @@
+2025-08-17T17:19:45.479+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Menu category not found with id=5
+2025-08-17T17:19:45.492+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Fetching categories for restaurantId=1
+2025-08-17T17:19:45.493+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Restaurant not found for id=1
+2025-08-17T17:19:45.558+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.c.RestaurantUserController         : Register user request received: email=john@example.com, role=CUSTOMER, name=John
+2025-08-17T17:19:45.560+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.c.RestaurantUserController         : User registered successfully: id=1, email=john@example.com, role=CUSTOMER
+2025-08-17T17:19:45.567+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.c.RestaurantUserController         : Fetching all registered users
+2025-08-17T17:19:45.568+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.c.RestaurantUserController         : Found 1 users

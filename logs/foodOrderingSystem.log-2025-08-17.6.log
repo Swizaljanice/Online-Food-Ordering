@@ -1,0 +1,7 @@
+2025-08-17T16:03:18.720+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Removing cart item: userId=1, cartItemId=10
+2025-08-17T16:03:18.725+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1
+2025-08-17T16:03:18.727+05:30 DEBUG 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Cart saved after removing item: com.online.foodOrderingSystem.entity.Cart@33ea43a
+2025-08-17T16:03:18.734+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Removing cart item: userId=1, cartItemId=10
+2025-08-17T16:03:18.735+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1
+2025-08-17T16:03:18.736+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : CartItem not found for removal: cartItemId=10 userId=1
+2025-08-17T16:03:18.743+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Adding/Updating cart item: userId=1, menuItemId=101, quantity=2

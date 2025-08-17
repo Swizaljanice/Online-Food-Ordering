@@ -1,0 +1,12 @@
+2025-08-14T20:07:31.406+05:30  INFO 24988 --- [foodOrderingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T20:11:50.792+05:30  WARN 25900 --- [foodOrderingSystem] [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Swizal/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Swizal/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-08-14T20:11:50.848+05:30  INFO 25900 --- [foodOrderingSystem] [main] c.o.f.FoodOrderingSystemApplicationTests : Starting FoodOrderingSystemApplicationTests using Java 23.0.1 with PID 25900 (started by Swizal in C:\Users\Swizal\OneDrive\Desktop\foodOrderingSystem)
+2025-08-14T20:11:50.849+05:30 DEBUG 25900 --- [foodOrderingSystem] [main] c.o.f.FoodOrderingSystemApplicationTests : Running with Spring Boot v3.5.4, Spring v6.2.9

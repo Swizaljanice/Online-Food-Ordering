@@ -1,0 +1,6 @@
+2025-08-17T16:03:20.089+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantUserService      : Attempting to register user: email=john@example.com, role=null, name=null
+2025-08-17T16:03:20.094+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantUserService      : Registration failed: Email john@example.com is already in use
+2025-08-17T16:03:20.099+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantUserService      : Attempting to register user: email=john@example.com, role=CUSTOMER, name=John
+2025-08-17T16:03:20.248+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantUserService      : User registered successfully: id=1, email=john@example.com
+2025-08-17T16:03:20.324+05:30  INFO 24648 --- [foodOrderingSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-17T16:03:20.332+05:30  INFO 24648 --- [foodOrderingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...

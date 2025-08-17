@@ -1,0 +1,7 @@
+2025-08-17T17:13:10.335+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Checkout started for userId=1
+2025-08-17T17:13:10.341+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Cart cleared for userId=1 after checkout
+2025-08-17T17:13:10.355+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : Attempting to load user by email: test@example.com
+2025-08-17T17:13:10.357+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : User found: id=null, role=CUSTOMER, email=test@example.com
+2025-08-17T17:13:10.365+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : Attempting to load user by email: missing@example.com
+2025-08-17T17:13:10.367+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.service.CustomUserDetailsService   : User not found with email=missing@example.com
+2025-08-17T17:13:10.532+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.FeedbackService            : Saving feedback for restaurantId=null, userId=null

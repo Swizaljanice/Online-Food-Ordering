@@ -1,0 +1,7 @@
+2025-08-17T17:19:45.705+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.FeedbackService            : Saving feedback for restaurantId=null, userId=null
+2025-08-17T17:19:45.711+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.FeedbackService            : Feedback saved successfully with id=1
+2025-08-17T17:19:45.716+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.FeedbackService            : Fetching feedback for restaurantId=10
+2025-08-17T17:19:45.717+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.FeedbackService            : Retrieved 1 feedback entries for restaurantId=10
+2025-08-17T17:19:46.112+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Handling Razorpay webhook payload (90 chars)
+2025-08-17T17:19:46.116+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Webhook event type received: payment.captured
+2025-08-17T17:19:46.117+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Processing 'payment.captured' for Razorpay orderId=rzp_order_123

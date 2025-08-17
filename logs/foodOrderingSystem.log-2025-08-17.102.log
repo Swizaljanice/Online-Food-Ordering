@@ -1,0 +1,7 @@
+2025-08-17T17:19:47.903+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Checkout failed - cart is empty for userId=1
+2025-08-17T17:19:47.924+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order status: orderId=1, userId=10
+2025-08-17T17:19:47.924+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=10
+2025-08-17T17:19:47.925+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=10
+2025-08-17T17:19:47.933+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Checkout initiated: userId=1, paymentMethod=COD
+2025-08-17T17:19:47.934+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order saved: orderId=10, totalAmount=100
+2025-08-17T17:19:47.934+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Initial tracking entry added for orderId=10 with status='Pending'

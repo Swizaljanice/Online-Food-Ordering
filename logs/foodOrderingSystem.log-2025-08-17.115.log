@@ -1,0 +1,6 @@
+2025-08-17T17:32:18.444+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.FoodOrderingSystemApplicationTests : Starting FoodOrderingSystemApplicationTests using Java 17.0.8 with PID 19100 (started by Swizal in C:\Users\Swizal\OneDrive\Desktop\foodOrderingSystem)
+2025-08-17T17:32:18.454+05:30 DEBUG 19100 --- [foodOrderingSystem] [main] c.o.f.FoodOrderingSystemApplicationTests : Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-17T17:32:18.456+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.FoodOrderingSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-08-17T17:32:20.775+05:30  INFO 19100 --- [foodOrderingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-17T17:32:20.970+05:30  INFO 19100 --- [foodOrderingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165 ms. Found 11 JPA repository interfaces.
+2025-08-17T17:32:22.297+05:30  INFO 19100 --- [foodOrderingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]

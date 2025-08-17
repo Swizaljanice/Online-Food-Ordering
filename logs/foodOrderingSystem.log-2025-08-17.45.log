@@ -1,0 +1,6 @@
+2025-08-17T17:13:11.020+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item deleted successfully with id=3
+2025-08-17T17:13:11.038+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Updating menu item id=5 with new values: MenuItem{id=5, name='New', description='Desc', price=10, imageUrl='img.jpg', available=true, category=null}
+2025-08-17T17:13:11.038+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item id=5 updated successfully
+2025-08-17T17:13:11.045+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Deleting menu item with id=3
+2025-08-17T17:13:11.047+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item not found with id=3
+2025-08-17T17:13:11.340+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order status: orderId=1, userId=10

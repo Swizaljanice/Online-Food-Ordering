@@ -1,0 +1,5 @@
+2025-08-17T16:03:18.469+05:30 DEBUG 24648 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token generated successfully for test@example.com: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIiwicm9sZSI6IkNVU1RPTUVSIiwiaWF0IjoxNzU1NDI2Nzk4LCJleHAiOjE3NTU0MzAzOTh9.FMECkL4wiH0pgPh8FSv-Akj6kQN-GVSPlEEj52pXPGc
+2025-08-17T16:03:18.477+05:30 DEBUG 24648 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Generating token for email: test@example.com, role: CUSTOMER
+2025-08-17T16:03:18.479+05:30 DEBUG 24648 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token generated successfully for test@example.com: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIiwicm9sZSI6IkNVU1RPTUVSIiwiaWF0IjoxNzU1NDI2Nzk4LCJleHAiOjE3NTU0MzAzOTh9.FMECkL4wiH0pgPh8FSv-Akj6kQN-GVSPlEEj52pXPGc
+2025-08-17T16:03:18.487+05:30 DEBUG 24648 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token validation succeeded
+2025-08-17T16:03:18.496+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token validation failed: Malformed JWT JSON: i?

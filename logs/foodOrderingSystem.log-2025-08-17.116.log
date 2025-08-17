@@ -1,0 +1,7 @@
+2025-08-17T17:32:22.474+05:30  INFO 19100 --- [foodOrderingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-17T17:32:22.580+05:30  INFO 19100 --- [foodOrderingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-17T17:32:22.954+05:30  INFO 19100 --- [foodOrderingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-17T17:32:23.041+05:30  INFO 19100 --- [foodOrderingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-17T17:32:23.534+05:30  INFO 19100 --- [foodOrderingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-08-17T17:32:23.539+05:30  INFO 19100 --- [foodOrderingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-17T17:32:23.600+05:30  WARN 19100 --- [foodOrderingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)

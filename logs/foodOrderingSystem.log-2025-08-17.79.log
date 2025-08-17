@@ -1,0 +1,7 @@
+2025-08-17T17:18:16.252+05:30  WARN 21120 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant not found with id=1
+2025-08-17T17:18:16.264+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Deleting restaurant with id=1
+2025-08-17T17:18:16.265+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant with id=1 deleted successfully
+2025-08-17T17:18:16.271+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Fetching menu for restaurantId=1
+2025-08-17T17:18:16.274+05:30  WARN 21120 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant not found with id=1
+2025-08-17T17:18:16.285+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantUserService      : Fetching all users
+2025-08-17T17:18:16.287+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantUserService      : Found 1 registered users

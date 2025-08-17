@@ -1,0 +1,5 @@
+2025-08-14T18:38:41.603+05:30  INFO 11416 --- [foodOrderingSystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-14T18:38:42.925+05:30  INFO 11416 --- [foodOrderingSystem] [main] c.o.f.FoodOrderingSystemApplicationTests : Started FoodOrderingSystemApplicationTests in 12.673 seconds (process running for 18.579)
+2025-08-14T18:38:43.826+05:30 DEBUG 11416 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Generating token for email: test@example.com, role: CUSTOMER
+2025-08-14T18:38:43.949+05:30 DEBUG 11416 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Token generated successfully for test@example.com: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIiwicm9sZSI6IkNVU1RPTUVSIiwiaWF0IjoxNzU1MTc2OTIzLCJleHAiOjE3NTUxODA1MjN9.Iy0GiLwZwC8qyVaEkfFKCcrkUBCOqEYcUx-8_k1_KHw
+2025-08-14T18:38:43.996+05:30 DEBUG 11416 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Email extracted from token: test@example.com

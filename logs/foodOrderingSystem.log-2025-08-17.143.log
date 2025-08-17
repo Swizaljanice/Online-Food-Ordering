@@ -1,0 +1,7 @@
+2025-08-17T17:32:31.256+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Feedback saved successfully with id=1
+2025-08-17T17:32:31.265+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching feedback for restaurantId=10
+2025-08-17T17:32:31.265+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Retrieved 1 feedback entries for restaurantId=10
+2025-08-17T17:32:31.480+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Deleting menu category with id=7
+2025-08-17T17:32:31.481+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu category not found with id=7
+2025-08-17T17:32:31.485+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching categories for restaurantId=1
+2025-08-17T17:32:31.485+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Found 1 categories for restaurantId=1

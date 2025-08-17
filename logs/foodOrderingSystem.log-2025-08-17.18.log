@@ -1,0 +1,7 @@
+2025-08-17T16:03:19.785+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Checkout initiated: userId=1, paymentMethod=COD
+2025-08-17T16:03:19.790+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Checkout failed - cart is empty for userId=1
+2025-08-17T16:03:19.796+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order status: orderId=1, userId=10
+2025-08-17T16:03:19.797+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=10
+2025-08-17T16:03:19.798+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=10
+2025-08-17T16:03:19.804+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Checkout initiated: userId=1, paymentMethod=COD
+2025-08-17T16:03:19.805+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order saved: orderId=10, totalAmount=100

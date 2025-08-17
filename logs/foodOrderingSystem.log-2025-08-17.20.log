@@ -1,0 +1,7 @@
+2025-08-17T16:03:19.942+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Handling Razorpay webhook payload (90 chars)
+2025-08-17T16:03:19.952+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Webhook event type received: payment.captured
+2025-08-17T16:03:19.954+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Processing 'payment.captured' for Razorpay orderId=rzp_order_123
+2025-08-17T16:03:19.955+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Payment transaction updated to Succeeded: transactionId=rzp_order_123
+2025-08-17T16:03:19.955+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Order marked as Paid: orderId=1
+2025-08-17T16:03:19.956+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Cart cleared for userId=10 after payment
+2025-08-17T16:03:19.963+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Handling Razorpay webhook payload (20 chars)

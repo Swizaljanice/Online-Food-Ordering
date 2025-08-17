@@ -1,0 +1,6 @@
+2025-08-17T16:03:19.285+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Restaurant not found for id=1
+2025-08-17T16:03:19.384+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Adding new menu item to categoryId=1 -> MenuItem{id=null, name='null', description='null', price=null, imageUrl='null', available=true, category=null}
+2025-08-17T16:03:19.385+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Category not found for id=1
+2025-08-17T16:03:19.388+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Updating menu item id=5 with new values: MenuItem{id=5, name='null', description='null', price=null, imageUrl='null', available=true, category=null}
+2025-08-17T16:03:19.391+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Menu item not found with id=5
+2025-08-17T16:03:19.394+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuItemService            : Fetching menu item by id=7

@@ -1,0 +1,7 @@
+2025-08-17T17:19:47.872+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : MenuItem not found: id=5
+2025-08-17T17:19:47.885+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Updating order status: orderId=1, newStatus=Shipped
+2025-08-17T17:19:47.886+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order status updated: orderId=1, status=Shipped
+2025-08-17T17:19:47.887+05:30 DEBUG 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Mapping Order entity to OrderResponseDto: orderId=1
+2025-08-17T17:19:47.895+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=100
+2025-08-17T17:19:47.895+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Access denied for userId=100 to orderId=1
+2025-08-17T17:19:47.903+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Checkout initiated: userId=1, paymentMethod=COD

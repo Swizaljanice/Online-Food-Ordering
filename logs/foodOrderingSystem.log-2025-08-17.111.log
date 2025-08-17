@@ -1,0 +1,7 @@
+2025-08-17T17:19:48.407+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant not found with id=1
+2025-08-17T17:19:48.417+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Fetching all restaurants
+2025-08-17T17:19:48.417+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Found 1 restaurants
+2025-08-17T17:19:48.424+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Deleting restaurant with id=1
+2025-08-17T17:19:48.425+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant not found with id=1
+2025-08-17T17:19:48.444+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Fetching menu for restaurantId=1
+2025-08-17T17:19:48.447+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Menu for restaurantId=1 retrieved successfully with 1 categories

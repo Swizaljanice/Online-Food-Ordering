@@ -1,0 +1,7 @@
+2025-08-17T17:32:30.985+05:30 DEBUG 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Cart saved after removing item: com.online.foodOrderingSystem.entity.Cart@87bf8b8
+2025-08-17T17:32:30.998+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Removing cart item: userId=1, cartItemId=10
+2025-08-17T17:32:30.998+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching cart for userId=1
+2025-08-17T17:32:30.998+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : CartItem not found for removal: cartItemId=10 userId=1
+2025-08-17T17:32:31.008+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Adding/Updating cart item: userId=1, menuItemId=101, quantity=2
+2025-08-17T17:32:31.008+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching cart for userId=1
+2025-08-17T17:32:31.009+05:30 DEBUG 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Item not found in cart. Adding new item.

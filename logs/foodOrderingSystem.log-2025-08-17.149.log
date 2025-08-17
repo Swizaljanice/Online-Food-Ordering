@@ -1,0 +1,7 @@
+2025-08-17T17:32:32.070+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching order: orderId=1, userId=10
+2025-08-17T17:32:32.076+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Order 1 found for userId=10
+2025-08-17T17:32:32.078+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Order not found for userId=10 orderId=1
+2025-08-17T17:32:32.082+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching order: orderId=1, userId=100
+2025-08-17T17:32:32.083+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Order 1 found for userId=100
+2025-08-17T17:32:32.090+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Checkout initiated: userId=1, paymentMethod=COD
+2025-08-17T17:32:32.092+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : MenuItem not found: id=5

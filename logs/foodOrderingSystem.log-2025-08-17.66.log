@@ -1,0 +1,6 @@
+2025-08-17T17:18:15.367+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Adding new menu category to restaurantId=1 -> MenuCategory{id=0, name='null', description='null', restaurant=null, items=[]}
+2025-08-17T17:18:15.374+05:30  WARN 21120 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Restaurant not found for id=1
+2025-08-17T17:18:15.379+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Adding new menu category to restaurantId=1 -> MenuCategory{id=0, name='Starters', description='null', restaurant=null, items=[]}
+2025-08-17T17:18:15.380+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Menu category created with id=0 under restaurantId=1
+2025-08-17T17:18:15.387+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Deleting menu category with id=7
+2025-08-17T17:18:15.388+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Menu category deleted successfully with id=7

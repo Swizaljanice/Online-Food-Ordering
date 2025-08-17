@@ -1,0 +1,7 @@
+2025-08-17T17:13:10.532+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.FeedbackService            : Feedback saved successfully with id=1
+2025-08-17T17:13:10.559+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.FeedbackService            : Fetching feedback for restaurantId=10
+2025-08-17T17:13:10.560+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.FeedbackService            : Retrieved 1 feedback entries for restaurantId=10
+2025-08-17T17:13:10.762+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Deleting menu category with id=7
+2025-08-17T17:13:10.763+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Menu category not found with id=7
+2025-08-17T17:13:10.770+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Fetching categories for restaurantId=1
+2025-08-17T17:13:10.772+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Found 1 categories for restaurantId=1

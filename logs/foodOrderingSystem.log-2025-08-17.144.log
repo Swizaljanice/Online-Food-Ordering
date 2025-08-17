@@ -1,0 +1,6 @@
+2025-08-17T17:32:31.490+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Adding new menu category to restaurantId=1 -> MenuCategory{id=0, name='null', description='null', restaurant=null, items=[]}
+2025-08-17T17:32:31.496+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Restaurant not found for id=1
+2025-08-17T17:32:31.500+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Adding new menu category to restaurantId=1 -> MenuCategory{id=0, name='Starters', description='null', restaurant=null, items=[]}
+2025-08-17T17:32:31.501+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu category created with id=0 under restaurantId=1
+2025-08-17T17:32:31.510+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Deleting menu category with id=7
+2025-08-17T17:32:31.511+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu category deleted successfully with id=7

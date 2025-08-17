@@ -1,0 +1,6 @@
+2025-08-17T16:03:19.242+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Found 1 categories for restaurantId=1
+2025-08-17T16:03:19.251+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Adding new menu category to restaurantId=1 -> MenuCategory{id=0, name='null', description='null', restaurant=null, items=[]}
+2025-08-17T16:03:19.252+05:30  WARN 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Restaurant not found for id=1
+2025-08-17T16:03:19.256+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Adding new menu category to restaurantId=1 -> MenuCategory{id=0, name='Starters', description='null', restaurant=null, items=[]}
+2025-08-17T16:03:19.258+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Menu category created with id=0 under restaurantId=1
+2025-08-17T16:03:19.262+05:30  INFO 24648 --- [foodOrderingSystem] [main] c.o.f.service.MenuCategoryService        : Deleting menu category with id=7

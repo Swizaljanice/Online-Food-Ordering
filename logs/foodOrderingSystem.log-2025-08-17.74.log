@@ -1,0 +1,7 @@
+2025-08-17T17:18:16.018+05:30 DEBUG 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Mapping Order entity to OrderDto: orderId=10
+2025-08-17T17:18:16.033+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching tracking history: orderId=1, userId=1
+2025-08-17T17:18:16.033+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=1
+2025-08-17T17:18:16.034+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=1
+2025-08-17T17:18:16.036+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Found 1 tracking records for orderId=1
+2025-08-17T17:18:16.140+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Handling Razorpay webhook payload (90 chars)
+2025-08-17T17:18:16.143+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.PaymentService             : Webhook event type received: payment.captured

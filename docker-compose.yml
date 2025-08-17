@@ -1,0 +1,28 @@
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: Swizal@2004
+      MYSQL_DATABASE: Online_Food_Ordering_System
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-data:/var/lib/mysql
+
+  app:
+    build: .
+    container_name: food-ordering-backend
+    depends_on:
+      - db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/Online_Food_Ordering_System
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Swizal@2004
+      SERVER_PORT: 8081
+    ports:
+      - "8080:8081"
+
+volumes:
+  db-data:

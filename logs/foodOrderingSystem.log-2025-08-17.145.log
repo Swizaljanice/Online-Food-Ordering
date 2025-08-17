@@ -1,0 +1,6 @@
+2025-08-17T17:32:31.517+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Updating menu category id=5 with new values: MenuCategory{id=0, name='New Name', description='New Desc', restaurant=null, items=[]}
+2025-08-17T17:32:31.522+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu category id=5 updated successfully
+2025-08-17T17:32:31.528+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Updating menu category id=5 with new values: MenuCategory{id=0, name='null', description='null', restaurant=null, items=[]}
+2025-08-17T17:32:31.530+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Menu category not found with id=5
+2025-08-17T17:32:31.535+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching categories for restaurantId=1
+2025-08-17T17:32:31.535+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Restaurant not found for id=1

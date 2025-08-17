@@ -1,0 +1,7 @@
+2025-08-17T17:32:31.010+05:30 DEBUG 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Cart saved after add/update: com.online.foodOrderingSystem.entity.Cart@5cf4023d
+2025-08-17T17:32:31.032+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Updating cart item quantity: userId=1, cartItemId=999, newQuantity=5
+2025-08-17T17:32:31.032+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching cart for userId=1
+2025-08-17T17:32:31.033+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : CartItem not found for cartItemId=999 and userId=1
+2025-08-17T17:32:31.040+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Retrieving cart for userId=1
+2025-08-17T17:32:31.040+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching cart for userId=1
+2025-08-17T17:32:31.047+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Updating cart item quantity: userId=1, cartItemId=10, newQuantity=5

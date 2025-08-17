@@ -1,0 +1,7 @@
+2025-08-17T17:13:10.257+05:30 DEBUG 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Cart saved after add/update: com.online.foodOrderingSystem.entity.Cart@3bc82aa3
+2025-08-17T17:13:10.273+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Updating cart item quantity: userId=1, cartItemId=999, newQuantity=5
+2025-08-17T17:13:10.273+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1
+2025-08-17T17:13:10.275+05:30  WARN 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : CartItem not found for cartItemId=999 and userId=1
+2025-08-17T17:13:10.283+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Retrieving cart for userId=1
+2025-08-17T17:13:10.284+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Fetching cart for userId=1
+2025-08-17T17:13:10.293+05:30  INFO 15340 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Updating cart item quantity: userId=1, cartItemId=10, newQuantity=5

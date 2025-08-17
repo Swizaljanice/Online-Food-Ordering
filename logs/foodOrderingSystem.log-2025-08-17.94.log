@@ -1,0 +1,7 @@
+2025-08-17T17:19:46.811+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Status for orderId=10 is 'Shipped'
+2025-08-17T17:19:46.823+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Get order status request: userId=1, orderId=10
+2025-08-17T17:19:46.826+05:30  WARN 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Order not found or access denied: orderId=10 userId=1
+2025-08-17T17:19:46.833+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Checkout request from userId=5 with paymentMethod=Razorpay
+2025-08-17T17:19:46.834+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Checkout successful for userId=5 -> orderId=1
+2025-08-17T17:19:46.845+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Get order tracking request: userId=1, orderId=10
+2025-08-17T17:19:46.846+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.controller.OrderController         : Found 1 tracking updates for orderId=10

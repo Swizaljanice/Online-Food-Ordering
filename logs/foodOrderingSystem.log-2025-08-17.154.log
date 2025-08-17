@@ -1,0 +1,7 @@
+2025-08-17T17:32:32.318+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Handling Razorpay webhook payload (23 chars)
+2025-08-17T17:32:32.323+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Webhook event type received: other.event
+2025-08-17T17:32:32.323+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Unhandled webhook event type: other.event
+2025-08-17T17:32:32.330+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Handling Razorpay webhook payload (89 chars)
+2025-08-17T17:32:32.331+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Webhook event type received: payment.failed
+2025-08-17T17:32:32.331+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Processing 'payment.failed' for Razorpay orderId=rzp_order_fail
+2025-08-17T17:32:32.332+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Payment transaction marked as Failed: transactionId=rzp_order_fail

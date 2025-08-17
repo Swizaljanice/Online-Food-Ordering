@@ -1,0 +1,7 @@
+2025-08-14T16:58:03.479+05:30  INFO 23740 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Login attempt for email: test@example.com
+2025-08-14T16:58:03.482+05:30 DEBUG 23740 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : User found: test@example.com with role CUSTOMER
+2025-08-14T16:58:03.604+05:30  WARN 23740 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Login failed - invalid password for email: test@example.com
+2025-08-14T16:58:03.746+05:30  INFO 23740 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Login attempt for email: test@example.com
+2025-08-14T16:58:03.747+05:30 DEBUG 23740 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : User found: test@example.com with role CUSTOMER
+2025-08-14T16:58:03.872+05:30  INFO 23740 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Password matched for email: test@example.com
+2025-08-14T16:58:03.873+05:30  INFO 23740 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : JWT generated for test@example.com: jwt-token

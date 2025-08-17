@@ -1,0 +1,6 @@
+2025-08-17T17:32:31.048+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching cart for userId=1
+2025-08-17T17:32:31.055+05:30 DEBUG 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Cart saved after quantity update: com.online.foodOrderingSystem.entity.Cart@4db11495
+2025-08-17T17:32:31.065+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Adding/Updating cart item: userId=1, menuItemId=101, quantity=3
+2025-08-17T17:32:31.067+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching cart for userId=1
+2025-08-17T17:32:31.068+05:30 DEBUG 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Item already exists in cart. Incrementing quantity. CurrentQty=1, Adding=3
+2025-08-17T17:32:31.068+05:30 DEBUG 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Cart saved after add/update: com.online.foodOrderingSystem.entity.Cart@39562fc2

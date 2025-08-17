@@ -1,0 +1,6 @@
+2025-08-17T17:19:48.371+05:30 DEBUG 14184 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Cart saved after add/update: com.online.foodOrderingSystem.entity.Cart@64c37088
+2025-08-17T17:19:48.390+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Checkout started for userId=1
+2025-08-17T17:19:48.391+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.CartService                : Cart cleared for userId=1 after checkout
+2025-08-17T17:19:48.399+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Adding new restaurant: Restaurant{id=0, name='Test Rest', description='null', address='null', phone='null', createdAt=null, categories=[]}
+2025-08-17T17:19:48.402+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Restaurant saved successfully with id=0
+2025-08-17T17:19:48.406+05:30  INFO 14184 --- [foodOrderingSystem] [main] c.o.f.service.RestaurantService          : Fetching restaurant by id=1

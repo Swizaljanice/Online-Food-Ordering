@@ -1,0 +1,7 @@
+2025-08-17T17:32:32.097+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Updating order status: orderId=1, newStatus=Shipped
+2025-08-17T17:32:32.103+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Order status updated: orderId=1, status=Shipped
+2025-08-17T17:32:32.105+05:30 DEBUG 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Mapping Order entity to OrderResponseDto: orderId=1
+2025-08-17T17:32:32.112+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching order: orderId=1, userId=100
+2025-08-17T17:32:32.113+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Access denied for userId=100 to orderId=1
+2025-08-17T17:32:32.120+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Checkout initiated: userId=1, paymentMethod=COD
+2025-08-17T17:32:32.122+05:30  WARN 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Checkout failed - cart is empty for userId=1

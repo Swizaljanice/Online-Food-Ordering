@@ -1,0 +1,7 @@
+2025-08-17T17:32:32.130+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching order status: orderId=1, userId=10
+2025-08-17T17:32:32.135+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Fetching order: orderId=1, userId=10
+2025-08-17T17:32:32.137+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Order 1 found for userId=10
+2025-08-17T17:32:32.143+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Checkout initiated: userId=1, paymentMethod=COD
+2025-08-17T17:32:32.145+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Order saved: orderId=10, totalAmount=100
+2025-08-17T17:32:32.145+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Initial tracking entry added for orderId=10 with status='Pending'
+2025-08-17T17:32:32.145+05:30  INFO 19100 --- [foodOrderingSystem] [main] c.o.f.controller.AuthController          : Cart cleared after checkout for userId=1

@@ -1,0 +1,7 @@
+2025-08-17T17:18:16.004+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order status: orderId=1, userId=10
+2025-08-17T17:18:16.008+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Fetching order: orderId=1, userId=10
+2025-08-17T17:18:16.010+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order 1 found for userId=10
+2025-08-17T17:18:16.015+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Checkout initiated: userId=1, paymentMethod=COD
+2025-08-17T17:18:16.017+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Order saved: orderId=10, totalAmount=100
+2025-08-17T17:18:16.017+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Initial tracking entry added for orderId=10 with status='Pending'
+2025-08-17T17:18:16.018+05:30  INFO 21120 --- [foodOrderingSystem] [main] c.o.f.service.OrderService               : Cart cleared after checkout for userId=1
